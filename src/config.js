@@ -1,4 +1,5 @@
 import {Redirect} from "react-router-dom";
+import About from "./views/about";
 import Comingsoon from "./views/comingsoon";
 import Contact from "./views/contact";
 import Error from "./views/error";
