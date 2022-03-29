@@ -11,11 +11,11 @@ class MessageSent extends Component {
     }
     render() {
         return (
-            <Container fluid className={"contact-s2 align-items-center p-0 py-5 d-flex minh-50vh " + this.props.classExt}>
+            <Container fluid className={"contact-s2 align-items-center px-0 py-5 border-top border-dark bg-white d-flex minh-100vh " + this.props.classExt}>
                 <Row className="mx-auto text-center w-100">
                     <Col xs={10} md={6} className="mx-auto p-0 d-flex align-items-center">
-                        <Card className="mx-auto bg-light-gray opacity-8 border-dark-gray shadow">
-                            <Card.Header className="text-secondary text-start border-dark-gray">
+                        <Card className="mx-auto border-secondary shadow bg-light opacity-9">
+                            <Card.Header className="text-secondary text-start border-secondary">
                                 Message sent!
                             </Card.Header>
                             <Card.Body className="text-center text-secondary p-5">
