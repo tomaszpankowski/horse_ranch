@@ -7,14 +7,14 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class TournamentS3 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex minh-50vh bg-light align-items-center py-5">
+            <Container fluid className="tournament-s3 d-flex minh-50vh bg-light align-items-center py-5 border-top border-secondary">
                 <Row className="mx-0 w-100">
-                    <Col xs={12} md={6} className="minh-50vh d-flex align-items-center">
+                    <Col xs={12} md={5} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start">
-                            <h2 className="dispaly-6 fw-bold text-secondary">
+                            <h2 className="dispaly-6 fw-bold text-dark-50">
                                 Lorem ipsum dolor
                             </h2>
-                            <p className="text-muted">
+                            <p className="text-dark">
                                 Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
